@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title> Sistemna de ventas</title>
+</head>
+<body>
+
+
+<div>
+
+    <div class="flex flex-row  w-96 mt-4 ml-4">
+
+        <div class="class= w-42 h-42 border-2  border-black rounded-lg ">
+            <img src="/asset/mesa.jpg" alt="mesa" class="w-40 h-40">
+
+        </div>
+
+
+        <div class="class= w-42 h-42 border-2  border-black rounded-lg" id="contenido">
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <div>
+
+
+        <form>
+
+            <label>
+                cargo
+                <select class="border-2  border-black rounded-lg mt-4" id="bebidas">
+                    <option> SELECIONA</option>
+                    <option> BRUGAL</option>
+                    <option> TEQUILA</option>
+                    <option> BARCELO</option>
+                    <option> CORONA</option>
+                </select>
+
+            </label>
+
+
+            <label>
+                cantidad
+                <input type="number" class="border-2  border-black rounded-lg" value="0" id="cantidad">
+            </label>
+
+
+            <button class=" bg-green-700 w-40 border-2  border-black rounded-lg" id="agregar">
+                ADD
+            </button>
+
+        </form>
+
+
+    </div>
+
+</div>
+
+
+<script src="/JS/consumo.js"></script>
+</body>
+</html>
